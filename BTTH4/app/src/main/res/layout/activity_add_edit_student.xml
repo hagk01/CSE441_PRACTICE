@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ Tên" />
+
+    <EditText
+        android:id="@+id/edit_text_mssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MSSV" />
+
+    <EditText
+        android:id="@+id/edit_text_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp" />
+
+    <EditText
+        android:id="@+id/edit_text_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm Trung Bình" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+</LinearLayout>
