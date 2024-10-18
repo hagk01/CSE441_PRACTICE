@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "BTTH03"
 include(":app")
+include(":app")
+include(":app")
  
