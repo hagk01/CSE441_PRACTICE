@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "studen_view"
+rootProject.name = "lvh"
 include(":app")
  

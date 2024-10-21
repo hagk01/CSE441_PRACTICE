@@ -1,14 +1,15 @@
 plugins {
+    id("com.android.application")
     alias(libs.plugins.androidApplication)
     id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.studen_view"
+    namespace = "com.example.lvh"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.studen_view"
+        applicationId = "com.example.lvh"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -38,10 +39,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.firebase.auth)
-    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation(libs.firebase.ui.database)
+    implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }
