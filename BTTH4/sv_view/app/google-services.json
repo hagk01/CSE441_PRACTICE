@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613654002543",
+    "project_id": "student-view-17690",
+    "storage_bucket": "student-view-17690.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613654002543:android:501248696c569bc807469a",
+        "android_client_info": {
+          "package_name": "com.example.studen_view"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQMIX6Krh3jvczAfoCv8fo4lAq_3AtSA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
